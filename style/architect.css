@@ -110,6 +110,30 @@ main >section{
   line-height: 26px;
 }
 
+
+/* Feature section related style */
+
+section.fetures {
+    display: flex;
+    gap: 140px;
+}
+
+#section-feature-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.feature-card .feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.feature-card{
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
 /* Some Fact Related style */
 .cards-container{
   display: grid;
@@ -192,5 +216,9 @@ main >section{
   }
   .sponsor-conpanies, .cards-container{
     grid-template-columns: repeat(3,1fr);
+  }
+  .cards-container{
+    gap: 25px;
+    justify-items: center;
   }
 }
